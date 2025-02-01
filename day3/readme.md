@@ -25,3 +25,21 @@
 - list item tags { li }
 - ordered list tags { ol }
 - unordered list tags { ul }
+- pre tags { pre }
+- blockquote tags { blockquote }
+
+
+### what is the difference between pre and blockquote tag?
+- pre tag is used to display the text exactly as it is written in the code. it includes all the spaces and line breaks.
+- blockquote tag is used to display the text as a block of text. it is used to display the text in a block format.
+for example:
+```html
+<pre>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius natus veniam numquam quae, perferendis at fugit esse! Nostrum minima eum eos quaerat repellendus voluptate porro ut aut quibusdam, facere fugit? Laboriosam, quae? Nulla debitis assumenda quam error ducimus, consectetur modi consequatur nisi voluptates totam vero exercitationem ratione nam nobis explicabo repellat quae dicta soluta recusandae et vel officia labore. Quaerat?
+</pre>
+``` 
+```html
+<blockquote>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius natus veniam numquam quae, perferendis at fugit esse! Nostrum minima eum eos quaerat repellendus voluptate porro ut aut quibusdam, facere fugit? Laboriosam, quae? Nulla debitis assumenda quam error ducimus, consectetur modi consequatur nisi voluptates totam vero exercitationem ratione nam nobis explicabo repellat quae dicta soluta recusandae et vel officia labore. Quaerat?
+</blockquote>
+``` 
