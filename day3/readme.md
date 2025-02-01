@@ -74,4 +74,20 @@ if we click on the section 1, it will take us to the section 1. and if we click 
 ### what is difference between block and inline element?
 - block element is the element that takes the full width of the page.
 - inline element is the element that takes the width of the content.
-for example:
+
+## form in html
+- form is used to collect the data from the user.
+- form is used to submit the data to the server.
+- form is used to validate the data.
+- form is used to display the data.
+
+### what is the difference between input and label tag?
+- input tag is used to take the input from the user.
+- label tag is used to display the text for the input tag.
+- for example:
+```html
+<label for="username">Username</label>
+<input id="username" type="text" placeholder="username">
+```
+
+
