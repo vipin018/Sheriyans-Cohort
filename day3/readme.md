@@ -55,3 +55,23 @@ for example:
 <a href="#section3">Section 3</a>
 ```
 if we click on the section 1, it will take us to the section 1. and if we click on the section 2, it will take us to the section 2. and if we click on the section 3, it will take us to the section 3.
+
+## what are semantic tags?
+- semantic tags are the tags that have a meaning.
+- semantic tags are used to describe the content of the page.
+- semantic tags are used to make the page more readable and understandable.
+- semantic tags are used to make the page more accessible.
+- it is also good for SEO.
+- some of the semantic tags are:
+    - header {head of the page}
+    - footer {footer of the page}
+    - article {article of the page}
+    - section {section of the page}
+    - nav {navigation of the page}
+    - aside {aside of the page}
+    - main {main content of the page}
+
+### what is difference between block and inline element?
+- block element is the element that takes the full width of the page.
+- inline element is the element that takes the width of the content.
+for example:
