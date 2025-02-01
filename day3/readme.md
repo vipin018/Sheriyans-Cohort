@@ -42,4 +42,16 @@ for example:
 <blockquote>
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius natus veniam numquam quae, perferendis at fugit esse! Nostrum minima eum eos quaerat repellendus voluptate porro ut aut quibusdam, facere fugit? Laboriosam, quae? Nulla debitis assumenda quam error ducimus, consectetur modi consequatur nisi voluptates totam vero exercitationem ratione nam nobis explicabo repellat quae dicta soluta recusandae et vel officia labore. Quaerat?
 </blockquote>
-``` 
+```
+
+### how to hover through one section to another section?
+- we can use the anchor tag to hover through one section to another section.
+- we can do it by using the href attribute.
+- giving the id to the section and then using the anchor tag to hover through one section to another section.
+for example:
+```html
+<a href="#section1">Section 1</a>
+<a href="#section2">Section 2</a>
+<a href="#section3">Section 3</a>
+```
+if we click on the section 1, it will take us to the section 1. and if we click on the section 2, it will take us to the section 2. and if we click on the section 3, it will take us to the section 3.
