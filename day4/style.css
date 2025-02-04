@@ -20,4 +20,5 @@ h1{
     text-transform: capitalize;
     text-decoration: none;
     text-indent: 10px;
+    text-shadow: 20px 20px 20px white;
 }

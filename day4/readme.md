@@ -91,4 +91,15 @@ example:
 
 - text-indent is used to set the indentation of the text, in simple words it is used to set the space before the text.
 
+## colors
+
+- colors are used to set the color of the text.
+- there are 3 types of colors in CSS.
+1. color name -> red, blue, green, etc.
+2. rgb -> rgb(255, 255, 255) 
+3. hex -> #ffffff
+4. rgba -> rgba(255, 255, 255, 0.5) a is the opacity of the color.
+5. hsl -> hsl(255, 255, 255) h is the hue, s is the saturation, l is the lightness.
+6. hsla -> hsla(255, 255, 255, 0.5) a is the opacity of the color.
+
 
