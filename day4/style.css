@@ -22,3 +22,10 @@ h1{
     text-indent: 10px;
     text-shadow: 20px 20px 20px white;
 }
+#div1{
+    background-color: rgb(255, 132, 0);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}

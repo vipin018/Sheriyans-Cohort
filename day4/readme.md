@@ -100,6 +100,9 @@ example:
 3. hex -> #ffffff
 4. rgba -> rgba(255, 255, 255, 0.5) a is the opacity of the color.
 5. hsl -> hsl(255, 255, 255) h is the hue, s is the saturation, l is the lightness.
-6. hsla -> hsla(255, 255, 255, 0.5) a is the opacity of the color.
+6. hsla -> hsla(255, 255, 255, 0.5) a is the alpha value of the color that is used to set the opacity of the color.
 
+### margin and padding
 
+- margin is used to set the space outside the element.
+- padding is used to set the space inside the element.
