@@ -38,7 +38,7 @@ Note :
 
 - class is used to style the HTML element with the same class name.
 - id is used to style the HTML element with the same id name.
-- The priority of id is higher than class.
+- **The priority of id is higher than class.**
 - class can be repeated but id can't be repeated because id is unique and class is not unique so we can use class multiple times in the HTML file but id can't be used multiple times in the HTML file.
 example:
 
