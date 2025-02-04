@@ -106,3 +106,16 @@ example:
 
 - margin is used to set the space outside the element.
 - padding is used to set the space inside the element.
+
+### border
+
+- border is used to set the border of the element.
+- border is used to set the border of the element.
+
+### boxsizing
+
+- boxsizing is used to set the width and height of the element.
+1. content-box -> the width and height of the element is the content width and height.
+2. border-box -> the width and height of the element is the content width and height + padding + border.
+
+
