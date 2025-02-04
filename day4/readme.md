@@ -118,4 +118,19 @@ example:
 1. content-box -> the width and height of the element is the content width and height.
 2. border-box -> the width and height of the element is the content width and height + padding + border.
 
+### border-radius
+
+- border-radius is used to set the radius of the border.
+
+### outline
+
+- outline is used to set the outline of the element.
+
+### background-image
+
+- background-image is used to set the background image of the element.
+
+
+
+
 
