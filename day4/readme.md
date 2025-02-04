@@ -29,4 +29,23 @@ selector {
 5. Attribute Selector example: [attribute], [attribute=value], [attribute~=value], [attribute|=value], [attribute^=value], [attribute$=value], [attribute*=value], etc.
 
 
+Note : 
+- Inline CSS is used to style the HTML element directly in the HTML file.
+- Inline CSS is used to style the HTML element directly in the HTML file.
+- The priority of Inline CSS is higher than External CSS.
+
+### class and id
+
+- class is used to style the HTML element with the same class name.
+- id is used to style the HTML element with the same id name.
+- The priority of id is higher than class.
+- class can be repeated but id can't be repeated because id is unique and class is not unique so we can use class multiple times in the HTML file but id can't be used multiple times in the HTML file.
+example:
+
+```html
+<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+<p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+
+```
 

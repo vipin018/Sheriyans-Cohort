@@ -4,7 +4,8 @@ body{
 
 h1{
     color: red;
-    text-align: center;
-    font-size: 100px;
-    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color: #e21313
 }
