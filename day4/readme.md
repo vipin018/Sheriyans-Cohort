@@ -49,3 +49,46 @@ example:
 
 ```
 
+### the priority list
+
+ id >> class >> tag >> star(*) 
+
+- star(*) is used to select all the HTML elements.
+
+#### difference between font-style *oblique* and *italic* 
+
+- italic and oblique both are used to make the text italic but the difference is that oblique is more modern and italic is more traditional.
+
+### font-weight
+
+- font-weight is used to make the text bold.
+ 900 is the highest font-weight.
+ 600 is the medium font-weight.
+ 400 is the normal font-weight.
+ 100 is the lowest font-weight.
+
+### line-height
+
+- line-height is used to set the space between the lines of the text.
+
+### letter-spacing
+
+- letter-spacing is used to set the space between the letters of the text.
+
+### word-spacing
+
+- word-spacing is used to set the space between the words of the text.
+
+### text-align
+
+- text-align is used to set the alignment of the text.
+1. left -> text will be aligned to the left.
+2. right -> text will be aligned to the right.
+3. center -> text will be aligned to the center.
+4. justify -> text will be aligned to the justify means the text will be aligned to the left and right.
+
+### text-indent
+
+- text-indent is used to set the indentation of the text, in simple words it is used to set the space before the text.
+
+

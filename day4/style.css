@@ -1,11 +1,23 @@
 body{
     background-color: black;
+    font-family: 'helvetica';
+    font-style:normal;
+
 }
 
 h1{
     color: red;
+    font-weight: 100;
 }
 
-p{
-    color: #e21313
+.para{
+    color:antiquewhite;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    text-align: justify;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-indent: 10px;
 }
