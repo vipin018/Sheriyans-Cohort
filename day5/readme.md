@@ -29,3 +29,8 @@
  - bottom left: this will position the image at the bottom left of the container
  - bottom right: this will position the image at the bottom right of the container
 
+### que : how to make a background image to cover the entire container?
+- we can use the background-size property to cover the entire container.
+- we can use the background-position property to center the image in the container.
+- we can use the background-repeat property to repeat the image in the container.
+
