@@ -34,3 +34,23 @@
 - we can use the background-position property to center the image in the container.
 - we can use the background-repeat property to repeat the image in the container.
 
+## Positions
+- static : this is the default position of the element.
+- relative : this is the position of the element relative to its normal position.
+- absolute : this is the position of the element relative to its parent element.
+- fixed : this is the position of the element relative to the viewport.
+- sticky : this is the position of the element relative to the viewport and it will stick to the viewport when you scroll.
+
+### z-index
+- this is the property that controls the stacking order of the elements.
+- the higher the z-index value, the higher the element will be in the stacking order.
+
+### how would you explain position absolute in simple words?
+- position absolute is the position of the element relative to its parent element.
+- the parent element must have a position property other than static.
+- using position absolute we can position the element anywhere in the container.
+
+### what is the difference between position absolute and position relative?
+- position absolute is the position of the element relative to its parent element.
+- position relative is the position of the element relative to its normal position.
+

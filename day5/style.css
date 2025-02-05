@@ -8,22 +8,53 @@ body {
     background: linear-gradient(to right top, #e55d09, #ffffff, #3fd908);
     background: radial-gradient(circle at top left, #000000, #282525, #fafafa);
     background: conic-gradient(from 180deg at 0% 100%, #000000, #282525, #fafafa);
-    
+
 
 }
 
-#img-div{
+#img-div {
     width: 500px;
     height: 500px;
-   background-image: url("https://images.unsplash.com/photo-1598089842345-111cc13e5ece?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-   background-size: cover;
-   background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1598089842345-111cc13e5ece?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
 }
 
-#bg{
+#bg {
     width: 100vw;
     height: 100vh;
     background-image: url("https://images.unsplash.com/photo-1658749440631-9b7c88cd75db?q=80&w=1993&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-position: center;
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    z-index: 2;
+}
+
+#box3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    top: 58%;
+    left: 55%;
+    z-index: 1;
 }
