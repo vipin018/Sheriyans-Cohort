@@ -54,3 +54,44 @@
 - position absolute is the position of the element relative to its parent element.
 - position relative is the position of the element relative to its normal position.
 
+
+## Display
+- display: none: this will hide the element.
+- display: block: this will display the element as a block element.
+- display: inline: this will display the element as an inline element.
+- display: inline-block: this will display the element as an inline-block element.
+- display: flex: this will display the element as a flex container.
+- display: grid: this will display the element as a grid container.
+
+### flex
+- flex-direction: row: this will display the element in a row.
+- flex-direction: column: this will display the element in a column.
+- flex-direction: row-reverse: this will display the element in a row-reverse.
+- flex-direction: column-reverse: this will display the element in a column-reverse.
+
+### flex-wrap
+- flex-wrap: wrap: this will wrap the element in a row.
+- flex-wrap: nowrap: this will not wrap the element in a row.
+- flex-wrap: wrap-reverse: this will wrap the element in a row-reverse.
+
+### justify-content 
+- justify-content: flex-start: this will justify the element to the start of the container.
+- justify-content: flex-end: this will justify the element to the end of the container.
+- justify-content: center: this will justify the element to the center of the container.
+- justify-content: space-between: this will justify the element to the space between the container.
+- justify-content: space-around: this will justify the element to the space around the container.
+- justify-content: space-evenly: this will justify the element to the space evenly the container.
+
+### align-items
+- align-items: flex-start: this will align the element to the start of the container.
+- align-items: flex-end: this will align the element to the end of the container.
+- align-items: center: this will align the element to the center of the container.
+- align-items: stretch: this will stretch the element to the container.
+- align-items: baseline: this will align the element to the baseline of the container.
+
+
+### que : how to center the element in the container?
+- we can use the justify-content property to center the element in the container.
+- we can use the align-items property to center the element in the container.
+
+
