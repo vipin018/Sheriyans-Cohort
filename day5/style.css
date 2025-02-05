@@ -3,11 +3,19 @@ body {
 }
 
 #box {
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
     background: linear-gradient(to right top, #e55d09, #ffffff, #3fd908);
     background: radial-gradient(circle at top left, #000000, #282525, #fafafa);
     background: conic-gradient(from 180deg at 0% 100%, #000000, #282525, #fafafa);
     
 
+}
+
+#img-div{
+    width: 500px;
+    height: 500px;
+   background-image: url("https://images.unsplash.com/photo-1598089842345-111cc13e5ece?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+   background-size: cover;
+   background-position: center;
 }
