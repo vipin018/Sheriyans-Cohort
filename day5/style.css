@@ -28,6 +28,12 @@ body {
     background-position: center;
 }
 
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #272626;
+}
+
 #box1 {
     width: 100px;
     height: 100px;
@@ -57,4 +63,20 @@ body {
     top: 58%;
     left: 55%;
     z-index: 1;
+}
+#parent {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to right top, #ff0378, #ffffff);
+    position: relative;
+}
+
+#child {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to left bottom, #ff0378, #ffffff);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
