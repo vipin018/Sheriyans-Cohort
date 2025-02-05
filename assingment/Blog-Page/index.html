@@ -1,168 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog</title>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<style> 
-    .container{ 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-left: 25%;
-        width: 50%;
-        border: 1px solid #000;
-        padding: 20px;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        border-radius: 60px;
-    }
-    .container h1{
-        font-size: 40px;
-        font-weight: 900;
-    }
-    .container p{
-        font-size: 16px;
-        font-weight: 400;
-        color: #666;
-    }
-    .container img{
-        width: 50%;
-        height: auto;
-    }
-    .container h3{
-        font-size: 20px;
-        font-weight: 900;
-    }
-    .container ul{
-        font-size: 16px;
-        font-weight: 400;
-        color: #666;
-    }
-    .container ol{
-        font-size: 16px;
-        font-weight: 400;
-        color: #666;
-    }
-    .container details{
-        font-size: 16px;
-        font-weight: 400;
-        color: #666;
-    }
-    .container footer{
-        font-size: 16px;
-        font-weight: 400;
-        color: #666;
-    }
-    .container footer p{
-        font-size: 16px;
-        font-weight: 400;
-        color: #666;
-    }
-    .container footer address{
-        font-size: 16px;
-        font-weight: 400;
-        color: #666;
-    }
-    .container footer a{
-        font-size: 16px;
-        font-weight: 400;
-        color: #666;
-    }
-    .container footer a:hover{
-        color: #000;
-    }
-    .container footer a:visited{
-        color: #000;
-    }
-    .container footer a:active{
-        color: #000;
-    }
-    .container footer a:focus{
-        color: #000;
-    }
-    
-</style>
-
-<body style="text-align: center; text-align: justify; font-size: 20px; font-family: 'Gilroy', Times, serif;">
+<body>
     <header>
-        <h1 style="text-align: center; font-size: 100px;">Welcome to My Blog</h1>
-        <p>Exploring thoughts, ideas, and experiences</p>
+        <h1>Creative Web Lab</h1>
+        <p>Exploring 3D graphics, shaders, and interactive experiences</p>
 
         <nav>
             <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="#about">Experiments</a>
+            <a href="#contact">Connect</a>
         </nav>
     </header>
 
     <main>
         <article>
-            <h2>Getting Started with Web Development</h2>
+            <h2>Creating Immersive Experiences with Three.js</h2>
             <p>Posted on February 01, 2025</p>
 
-            <img  src="https://images.unsplash.com/photo-1595776613215-fe04b78de7d0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Coding setup with laptop and coffee" style="width: 50%; height: auto;">
+            <img src="https://images.unsplash.com/photo-1623141629340-4686d65d60bc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt="3D visualization">
 
-            <p>Web Development is a journey that combines creativity with technical skills. Whether you're just starting
-                out or looking to expand your knowledge, here are some essential topics to explore:</p>
+            <p>Three.js opens up a world of possibilities for creating stunning 3D experiences on the web. From interactive product visualizations to immersive storytelling, understanding Three.js fundamentals is crucial for modern creative development.</p>
 
-
-            <h3>Core Technologies</h3>
+            <h3>Essential Three.js Concepts</h3>
             <ul>
-                <li>HTML5 - The backbone of web content</li>
-                <li>CSS3 - Styling and layout</li>
-                <li>JavaScript - Interactive functionality</li>
+                <li>Scene Setup - Creating the 3D environment</li>
+                <li>Camera Controls - Managing user perspective</li>
+                <li>Lighting & Materials - Achieving realistic renders</li>
             </ul>
 
-            <h3>Learning Path</h3>
+            <h3>Development Process</h3>
             <ol>
-                <li>Master HTML basics</li>
-                <li>Style your content with CSS</li>
-                <li>Add interactivity with JavaScript</li>
-                <li>Learn responsive design principles</li>
+                <li>Initialize scene and camera</li>
+                <li>Import and optimize 3D models</li>
+                <li>Implement custom materials</li>
+                <li>Add interactive animations</li>
             </ol>
         </article>
 
         <article>
-            <h2>The Importance of Clean Code</h2>
+            <h2>Advanced GLSL Shader Development</h2>
             <p>Posted on February 01, 2025</p>
 
-            <img  src="https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Clean code on computer screen" style="width: 50%; height: auto;">
+            <img src="https://images.unsplash.com/photo-1632059368252-be6d65abc4e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Shader patterns">
 
-            <p>Writing clean, maintainable code is crucial for long-term project success. Here are some key principles
-                to keep in mind:</p>
+            <p>GLSL shaders are the key to creating stunning visual effects in WebGL applications. By writing custom shaders, you can achieve unique visual styles and optimize performance for complex graphics.</p>
 
             <ul>
-                <li>Keep your code DRY (Don't Repeat Yourself)</li>
-                <li>Use meaningful variable and function names</li>
-                <li>Comment your code appropriately</li>
-                <li>Follow consistent formatting</li>
+                <li>Write vertex shaders for geometry manipulation</li>
+                <li>Create fragment shaders for pixel-level effects</li>
+                <li>Implement noise and procedural textures</li>
+                <li>Optimize shader performance</li>
             </ul>
 
             <details>
-                <summary>More coding tips</summary>
+                <summary>Advanced Graphics Tips</summary>
                 <ul>
-                    <li>Write self-documenting code</li>
-                    <li>Keep functions small and focused</li>
-                    <li>Use consistent indentation</li>
+                    <li>Implement post-processing effects</li>
+                    <li>Create custom ray-marching shaders</li>
+                    <li>Optimize for mobile GPUs</li>
                 </ul>
             </details>
         </article>
     </main>
 
     <footer>
-        <p style="text-align: center;">© 2025 My Blog</p>
-        <address style="text-align: center;">
-            Contact: <a href="vipinpathak018@gmail.com">vipinpathak018 @gmail.com</a>
+        <p>© 2025 Creative Web Lab</p>
+        <address>
+            Contact: <a href="mailto:vipinpathak018@gmail.com">vipinpathak018@gmail.com</a>
         </address>
     </footer>
 </body>
-
 </html>
