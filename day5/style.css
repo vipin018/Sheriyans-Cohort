@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(48, 48, 48);
+}
+
+#box {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right top, #e55d09, #ffffff, #3fd908);
+    background: radial-gradient(circle at top left, #000000, #282525, #fafafa);
+    background: conic-gradient(from 180deg at 0% 100%, #000000, #282525, #fafafa);
+    
+
+}
