@@ -70,6 +70,7 @@ h1 {
     object-fit: cover;
     border-radius: 16px;
     transition: transform 0.4s ease;
+    animation: animation 0.4s ease;
 }
 
 .product:hover img {
@@ -126,6 +127,15 @@ h1 {
 
 .product button:active {
     transform: scale(0.98);
+}
+
+@keyframes animation {
+    0% {
+        background-image: url(https://images.unsplash.com/photo-1588514912908-8f5891714f8d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    }
+    100% {
+        background-image: url(https://images.unsplash.com/photo-1582211594533-268f4f1edcb9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    }
 }
 
 @media (max-width: 768px) {
