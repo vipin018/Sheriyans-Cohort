@@ -13,7 +13,7 @@ background-color: #222;
 color: #fff;
 }
 
-button {
+.btn1, .btn2, .btn3, .btn4 {
     padding: 20px 30px;
     background-color: #000;
     border-radius: 10px;
@@ -21,17 +21,31 @@ button {
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: all 0.5s ease-out;
-    font-weight: 600;
 }
 
+.btn1{
+    top: 20%;
+    left: 10%;
+    transition: all 0.5s ease-in;
+}
+.btn2{
+    top: 30%;
+    left: 30%;
+    transition: all 0.5s ease-out;
+}
+.btn3{
+    top: 40%;
+    left: 50%;
+    transition: all 0.5s ease-in-out;
+}
+.btn4{
+    top: 50%;
+    left: 70%;
+    transition: all 0.5s linear;
+}
 button:hover {
     background-color: #fff;
     color: #000;
-    transform: translate(-50%, -50%) scale(1.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 

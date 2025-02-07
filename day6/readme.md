@@ -45,3 +45,25 @@ li::after {
 so the after pseudo class will add a 🔥 after the element.
 like this: item 1 🔥
 
+
+## transitions
+
+- transitions are used to animate the style of an element.
+- we can use the transition pseudo class to animate the style of an element.
+
+example:
+
+```html
+<button>Click me</button>
+```
+
+```css
+button {
+  transition: all 0.5s ease-out;
+}
+```
+ what this will do is that it will animate the style of the button when we hover over it.
+ transition is a property that takes 3 values:
+ - property: the property we want to animate. (all, background-color, color, etc.)
+ - duration: the duration of the animation. (0.5s, 1s, 2s, etc.)
+ - timing function: the timing function of the animation. (ease-in, ease-out, ease-in-out, linear, etc.)
