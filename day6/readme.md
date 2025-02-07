@@ -67,3 +67,10 @@ button {
  - property: the property we want to animate. (all, background-color, color, etc.)
  - duration: the duration of the animation. (0.5s, 1s, 2s, etc.)
  - timing function: the timing function of the animation. (ease-in, ease-out, ease-in-out, linear, etc.)
+
+ease-in: the animation will start slowly and then speed up.
+ease-out: the animation will start quickly and then slow down.
+ease-in-out: the animation will start slowly, speed up, and then slow down.
+linear: the animation will start and end at the same speed.
+
+
