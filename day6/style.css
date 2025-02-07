@@ -1,0 +1,55 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html,
+body {
+height: 100%;
+width: 100%;
+}
+body{
+background-color: #222;
+color: #fff;
+}
+
+button {
+    padding: 20px 30px;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-out;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+    transform: translate(-50%, -50%) scale(1.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+ol {
+    list-style-type: none;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+li:hover::before{
+    content: " 🚀";
+    padding: 10px;
+    transition: all 0.5s ease-out;
+}
+
+li:hover::after{
+    content: " 🔥";
+    margin-left: 10px;
+}
+
