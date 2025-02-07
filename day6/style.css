@@ -30,17 +30,17 @@ color: #fff;
     transition: all 0.5s ease-in;
 }
 .btn2{
-    top: 30%;
+    top: 20%;
     left: 30%;
     transition: all 0.5s ease-out;
 }
 .btn3{
-    top: 40%;
+    top: 20%;
     left: 50%;
     transition: all 0.5s ease-in-out;
 }
 .btn4{
-    top: 50%;
+    top: 20%;
     left: 70%;
     transition: all 0.5s linear;
 }
@@ -68,3 +68,28 @@ li:hover::after{
     margin-left: 10px;
 }
 
+
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transition: all 0.5s ease-in-out;
+}
+
+#box h1{
+    position: absolute;
+    font-family: 'gilroy', Courier, monospace;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+#box:hover{
+    background-image: url(https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    color: #fff;
+}
