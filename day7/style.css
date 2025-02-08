@@ -16,12 +16,13 @@ body {
 
 #parent {
     height: 400px;
-    width: 400px;
+    /* width: 400px;  */
+    width: 100%;
     background-color: peru;
 }
 
 #child{
     height: 200px;
-    width: 200px;
+    width: 100%;
     background-color: wheat;
 }
