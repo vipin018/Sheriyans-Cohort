@@ -15,9 +15,8 @@ body {
     color: #fff;
 }
 
-#parent {
+/* #parent {
     height: 400px;
-    /* width: 400px;  */
     width: 100%;
     background-color: peru;
 }
@@ -34,4 +33,71 @@ h1 {
 
 p {
     font-size: 1.5rem;
+} */
+
+
+/* #parent {
+    height: 100px;
+    width: 100px;
+    background-color: peru;
+} */
+
+ /* media queries for mobile devices */
+/* @media (max-width:600px){
+    #parent{
+        background-color: forestgreen;
+        height: 200px;
+        width: 200px;
+    }
+} */
+
+/* media queries for tablet devices */
+/* @media (min-width:600px) and (max-width:768px){
+    #parent{
+        background-color: burlywood;
+        height: 200px;
+        width: 200px;
+    }
+} */
+
+/* media queries for desktop devices */
+/* @media (min-width:768px and max-width:1024px){
+    #parent{
+        background-color: aquamarine;
+        height: 200px;
+        width: 200px;
+    }
+} */
+
+/* media queries for large desktop devices */
+/* @media (min-width:1024px){
+    #parent{
+        background-color: darkkhaki;
+        height: 200px;
+        width: 200px;
+    }
+} */
+
+
+#parent{
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(255, 212, 227);
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 100px 300px 200px 50px;
+    grid-template-rows: 100px 200px;
+
+
 }
+
+#child{
+    /* width: 200px; */
+    /* flex-grow: 1; it will grow to the size of the container if the container is not enough to fit the children */
+    /* flex-shrink: 0; it will shrink to the size of the container */
+    background-color: honeydew;
+    border: 1px solid black;
+}
+
