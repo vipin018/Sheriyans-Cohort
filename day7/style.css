@@ -42,7 +42,7 @@ p {
     background-color: peru;
 } */
 
- /* media queries for mobile devices */
+/* media queries for mobile devices */
 /* @media (max-width:600px){
     #parent{
         background-color: forestgreen;
@@ -79,25 +79,47 @@ p {
 } */
 
 
-#parent{
-    width: 1000px;
-    height: 1000px;
+#parent {
+    width: 300px;
+    height: 300px;
     background-color: rgb(255, 212, 227);
     /* display: flex; */
     /* justify-content: space-between; */
     /* flex-wrap: wrap; */
+    /* display: grid; */
+    /* grid-template-columns: 100px 300px 200px 50px;
+    grid-template-rows: 100px 200px; */
     display: grid;
-    grid-template-columns: 100px 300px 200px 50px;
-    grid-template-rows: 100px 200px;
+    grid-template-areas: 
+    "a a b"
+    "a a b"
+    "c c c"
+
+    ;
+
 
 
 }
 
-#child{
+#child {
     /* width: 200px; */
     /* flex-grow: 1; it will grow to the size of the container if the container is not enough to fit the children */
     /* flex-shrink: 0; it will shrink to the size of the container */
-    background-color: honeydew;
     border: 1px solid black;
+  
 }
 
+.child1 {
+    grid-area: a;
+    background-color: rgb(255, 121, 168);
+}
+
+.child2 {
+    grid-area: b;
+    background-color: rgb(139, 180, 78);
+}
+
+.child3 {
+    grid-area: c;
+    background-color: rgb(121, 206, 255);
+}
