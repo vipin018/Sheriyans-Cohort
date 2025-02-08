@@ -12,22 +12,80 @@ body {
 
 #images{
     width: 100%;
-    height: 100%;
     background-color: chocolate;
     display: grid;
+    gap: 20px;
     grid-template-areas: 
-    "a a b c"
-    "a a d e"
-    "f g j j"
-    "h i j j"
-    ;
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f"
+    "g"
+    "h"
+    "i"
+    "j"
+}
+
+@media (min-width: 1080px) {
+    #images{
+        grid-template-areas: 
+        "a a b c"
+        "a a d e"
+        "f g j j"
+        "h i j j"
+        ;
+    }
 }
 
 img{
     width: 100%;
     height: 100%;
-    aspect-ratio: 1/1; /* 1/1 means 1:1 ratio that means the width and height are same like same height and width */
+    aspect-ratio: 16/9; /* 1/1 means 1:1 ratio that means the width and height are same like same height and width */
     object-fit: cover;
     object-position: center;
-    display: none;
+    /* display: none; */
+   border-radius: 15px;
 }
+
+.image-a{
+    grid-area: a;
+}
+
+.image-b{
+    grid-area: b;
+}
+
+.image-c{
+    grid-area: c;
+}
+
+.image-d{
+    grid-area: d;
+}
+
+.image-e{
+    grid-area: e;
+}
+
+.image-f{
+    grid-area: f;
+}
+
+.image-g{
+    grid-area: g;
+}
+
+.image-h{
+    grid-area: h;
+}
+
+.image-i{
+    grid-area: i;
+}
+
+.image-j{
+    grid-area: j;
+}
+
