@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#images{
+    width: 100%;
+    height: 100%;
+    background-color: chocolate;
+    display: grid;
+    grid-template-areas: 
+    "a a b c"
+    "a a d e"
+    "f g j j"
+    "h i j j"
+    ;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1; /* 1/1 means 1:1 ratio that means the width and height are same like same height and width */
+    object-fit: cover;
+    object-position: center;
+    display: none;
+}
