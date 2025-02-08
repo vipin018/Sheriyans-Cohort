@@ -32,6 +32,15 @@ body {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: -webkit-gradient(linear, left top, right top, from(#fefefe), to(#5f5ff9));
+  background: linear-gradient(to right, #fefefe, #5f5ff9);
+  -webkit-box-shadow: 0 0 1000px blue;
+          box-shadow: 0 0 1000px blue;
 }
 
 #card h1 {
@@ -45,5 +54,13 @@ body {
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#card button {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */

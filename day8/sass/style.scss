@@ -24,6 +24,12 @@ $primary-color: #ff0000;
     gap: 30px;
     padding: 20px;
     width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right, #fefefe, #5f5ff9);
+    box-shadow: 0 0 1000px blue;
 
 
     h1 {
@@ -36,5 +42,13 @@ $primary-color: #ff0000;
         height: 100px;
         border-radius: 50%;
         object-fit: cover;
+    }
+
+    button {
+        background-color: $primary-color;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
     }
 }
