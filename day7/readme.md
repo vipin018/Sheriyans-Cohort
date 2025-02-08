@@ -6,6 +6,11 @@
 - media query is a CSS technique that allows you to apply different styles to different devices
 - media query is a CSS technique that allows you to apply different styles to different devices
 
+### Note:
+- default font size of the browser is 16px
+- 1rem = 16px
+- 1em = 16px
+
 
 ### we are going to learn about size values
 
@@ -35,4 +40,31 @@
 - rem is a responsive unit and it is responsive to the device size
 - rem value changes with the device size
 - rem unit depends on the root element
+
+
+#### em (em)
+- em is a unit of measurement that represents the font size of the parent element
+- em is a responsive unit and it is responsive to the device size
+- em value changes with the device size
+- em unit depends on the parent element
+
+
+##### difference between rem and em
+- rem is a unit of measurement that represents the root element
+- em is a unit of measurement that represents the font size of the parent element
+- rem unit depends on the root element
+- em unit depends on the parent element
+
+#### vh (viewport height)
+- vh is a unit of measurement that represents the height of the viewport
+- vh is a responsive unit and it is responsive to the device size
+- vh value changes with the device size
+- vh unit depends on the viewport
+
+
+#### vw (viewport width)
+- vw is a unit of measurement that represents the width of the viewport
+- vw is a responsive unit and it is responsive to the device size
+- vw value changes with the device size
+- vw unit depends on the viewport
 
