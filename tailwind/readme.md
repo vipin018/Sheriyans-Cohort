@@ -4,5 +4,6 @@
 -it is a utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
 - It is a modern way to design websites without having to write CSS from scratch.
 
+* in very simple language tailwind is a css framework that is used to design websites without writing css from scratch. tailwind use kar k hum apna kaam aasan kar sakte hai.
 
 
