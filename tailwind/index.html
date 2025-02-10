@@ -4,16 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
-    <div class="w-full h-screen bg-[#aaaaaa] ">
-        <div class=" w-1/2 h-1/2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#1a1a1a] rounded-full ">
+    <main class="w-full h-full px-10 py-10 bg-stone-100">
+        <nav class="flex justify-between items-center">
+            <h1 class="text-2xl font-semibold">Portfolio</h1>
+            <div class="links flex gap-10 font-semibold">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+
+        </nav>
+        <div class="flex items-baseline justify-between mt-10">
+            <div class="flex flex-col gap-1 w-full ">
+                <h3 class="text-xl font-semibold">Hello, I am</h3>
+                <h1 class="text-9xl font-semibold">Tavishaa.</h1>
+                <p class="text-xl font-normal absolute right-0 bottom-[450px] px-10 italic">Creative Frontend Developer
+                </p>
+                <img class="object-cover mt-10 w-full h-[500px]  border-t-1 border-black"
+                    src="https://images.unsplash.com/photo-1604257205713-4dcf07068efe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+            </div>
+
         </div>
-    </div>
+        <div class="flex items-baseline justify-between mt-10">
+            <div class="flex flex-col gap-1 w-full ">
+                <h3 class="text-xl font-semibold">Hello, I am</h3>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
 
 
 
