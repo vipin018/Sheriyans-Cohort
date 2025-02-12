@@ -8,3 +8,14 @@ body {
     height: 100%;
     font-family: 'Manrope', sans-serif;
 }
+
+@font-face {
+    font-family: 'Logo';
+    src: url(./assets/Delicius-BF67ab01ce2df0e.otf);
+}
+
+nav h1 {
+    font-family: 'Logo';
+    letter-spacing:0.3rem;
+    /* text-decoration: underline; */
+}
