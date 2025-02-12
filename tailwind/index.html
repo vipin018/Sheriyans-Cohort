@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
-    <main class="w-full h-full py-10">
+    <main class="main w-full h-full py-10">
         <nav class="flex px-10 justify-between items-center">
             <h1
                 class="text-3xl font-semibold animate-[pulse_1s_ease-in-out_infinite] hover:animate-none transition-all duration-500 cursor-pointer ">
@@ -28,7 +29,7 @@
                 <h1 class="text-[10rem] leading-none -ml-2 text-teal-400 font-semibold tracking-tight ">Tavishaa.</h1>
             </div>
             <div class="right flex gap-3 items-center">
-                <h4>[11.11 PM]</h4>
+                <h4 class="time">[11.11 PM]</h4>
                 <div class="w-32 h-[1px] bg-black"></div>
                 <h6 class="italic text-lg text-teal-400 tracking-tight">Creative Frontend Developer</h6>
 
@@ -183,9 +184,40 @@
                         src="https://img.freepik.com/free-photo/river-panorama-photos-highdefinition-picture-tourism_1417-939.jpg?t=st=1739360057~exp=1739363657~hmac=239b21bbcf2e80ccf6092a285ea229dd97cf2a760ebfd2b3c89bc11c5dfcfd21&w=1380"
                         alt="">
                 </div>
+                <div class="flex gap-10 relative">
+                    <div class="mt-20">
+                        <h1 class="text-6xl font-semibold">Uttar Pradesh</h1>
+                        <div class="flex gap-5 items-baseline">
+                            <h1 class="text-4xl font-medium">Banaras</h1>
+                            <h3 class="text-2xl font-medium">2025</h3>
+                            <img class="w-20" src="./assets/arrow.png" alt="">
+                        </div>
+                        <img class="w-[35rem] h-[30rem] object-cover object-bottom hover:translate-x-[5rem] transition-all duration-500 cursor-pointer"
+                            src="https://images.unsplash.com/photo-1572403490139-e08bf9689937?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+
+                    </div>
+                    <div class="mt-20 absolute top-[10rem] left-[50rem]">
+                        <h1 class="text-6xl font-semibold">Delhi</h1>
+                        <div class="flex gap-5 items-baseline">
+                            <h1 class="text-4xl font-medium">New Delhi</h1>
+                            <h3 class="text-2xl font-medium">2025</h3>
+                            <img class="w-20" src="./assets/arrow.png" alt="">
+                        </div>
+                        <img class="w-[40rem] h-[40rem] object-cover object-center hover:translate-x-[-5rem] transition-all duration-500 cursor-pointer"
+                            src="https://images.unsplash.com/photo-1533120164489-96c6ca1f43eb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
+        <div class="footer px-10 py-20 relative">
+            <h1 class="text-7xl font-medium absolute bottom-[-10rem]  ">Tavishaa Jaiswal <span class="text-red-700 animate-[pulse_1s_ease-in-out_infinite]">&hearts;</span></h1>
+        </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 
 </html>
