@@ -6,7 +6,7 @@ html,
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Gilroy', sans-serif;
 }
 
 @font-face {
@@ -18,4 +18,8 @@ nav h1 {
     font-family: 'Logo';
     letter-spacing:0.3rem;
     /* text-decoration: underline; */
+}
+
+.overlay h1{
+    font-family: 'Gilroy';
 }
