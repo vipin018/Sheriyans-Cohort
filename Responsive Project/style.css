@@ -30,7 +30,10 @@ main {
 .view1 {
   width: 100%;
   padding-bottom: 2rem;
-  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  border-bottom: 1px solid black;
 }
 .view1 h3 {
   font-weight: 200;
@@ -44,7 +47,7 @@ main {
   margin-bottom: 1rem;
 }
 .view1 p {
-  font-weight: 300;
+  font-weight: 200;
   font-size: 1.3rem;
   opacity: 0.8;
   font-family: "font2";
@@ -55,5 +58,28 @@ main {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
+}
+
+@media (min-width: 1020px) {
+  main {
+    padding: 2rem;
+  }
+  .view1 {
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .view1 .left {
+    width: 50%;
+  }
+  .view1 .right {
+    width: 50%;
+  }
+  .view1 h1 {
+    font-size: 5.5rem;
+    opacity: 0.8;
+  }
+  .view1 p {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */
