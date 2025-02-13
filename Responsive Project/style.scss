@@ -20,13 +20,15 @@ body {
     height: 100%;
     font-family: font1, curs;
     padding: 0.5em;
+    // background-color: #191919;
+    // color: #FDFBF5;
 }
 
 main {
     padding: 1rem;
     padding-top: 3rem;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #FDFBF5;
     // margin: 1rem;
 }
 
@@ -36,7 +38,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #FDFBF5;
+    height: 80vh;
 
     h3 {
         font-weight: 200;
@@ -78,23 +81,98 @@ main {
     .view1 {
         flex-direction: row;
         gap: 2rem;
- 
-        .left{
+
+        .left {
             width: 50%;
         }
-        .right{
+
+        .right {
             width: 50%;
         }
 
         h1 {
             // width: 50%;
             font-size: 5.5rem;
-            opacity: 0.8;
+            opacity: 0.9;
         }
 
         p {
-            font-size: 2rem;
+            font-size: 1.5rem;
+            width: 75%;
 
+        }
+    }
+}
+
+.view2 {
+    margin-top: 3rem;
+    border-top: 1px solid black;
+
+    .works {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    img {
+        display: none;
+    }
+
+    h1 {
+        font-weight: 200;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+        margin-bottom: 1.5rem;
+        padding-top: 1.5rem;
+    }
+
+    p {
+        font-weight: 200;
+        font-size: 1rem;
+        opacity: 0.8;
+        font-family: "font2";
+        word-spacing: 0.1rem;
+        letter-spacing: 0.01rem;
+        margin-bottom: 1rem;
+        // border-bottom: 1px solid black;
+        padding-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1020px) {
+    .view2 {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        border-bottom: 1px solid black;
+
+        h3 {
+            width: 40%;
+            margin-top: 3rem;
+            font-size:1rem;
+        }
+
+        .right {
+            display: flex;
+            width: 100%;
+            width: 60%;
+            // border: 1px solid black;
+            padding: 1rem;
+
+            .right1{
+                width: 50%;
+
+                p{
+                    width: 90%;
+                }
+            }
+            .right2{
+                width: 50%;
+
+                p{
+                    width: 90%;
+                }
+            }
         }
     }
 }
