@@ -9,16 +9,20 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Nunito", curs;
+  padding: 0.5em;
 }
 
 main {
   padding: 1rem;
   padding-top: 3rem;
   width: 100%;
+  border: 1px solid black;
 }
 
 .view1 {
   width: 100%;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid black;
 }
 .view1 h3 {
   font-weight: 200;
