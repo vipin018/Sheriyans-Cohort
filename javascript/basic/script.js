@@ -10,13 +10,4 @@ console.warn("third") // this is a warning message that is used to print the war
 let a = 10;
 const b = 20;
 var c = 30;
-
-// let and const are block scoped
-// var is function scoped
-
-// what is the difference between let and const?
-// let is mutable and const is immutable
-
-// what is the difference between var and let?
-// var is function scoped and let is block scoped
-
+ console.log(a, b, c);
