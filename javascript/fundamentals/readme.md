@@ -52,3 +52,19 @@ example -> console.log(a); let a = 10;
         // code to be executed if the expression is value2
         break;
 }
+
+
+#### Binary Operators
+
+- Arithmetic Operators -> +, -, *, /, %, ++, --
+- Assignment Operators -> =, +=, -=, *=, /=, %=
+- Comparison Operators -> ==, ===, !=, !==, >, <, >=, <=
+- Logical Operators -> &&, ||, !
+- Bitwise Operators -> &, |, ^, ~, <<, >>
+- Ternary Operators -> condition ? true : false
+
+*que: difference between == and ===*
+- == -> compares the value only
+- === -> compares the value and type
+
+
