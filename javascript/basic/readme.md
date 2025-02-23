@@ -38,3 +38,10 @@ function myFunction() {
 myFunction();
 console.log(a); // this will print 10
 ```
+
+#### display messgae to the user
+
+- alert() -> used to display the message to the user
+- prompt() -> used to display the message to the user and get the input from the user
+- confirm() -> used to display the message to the user and get the input from the user
+
