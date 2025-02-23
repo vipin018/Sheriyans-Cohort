@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: font1;
+  src: url(./assets/font1.woff2);
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  padding: 1.5rem;
+}
+main .hero-text {
+  width: 100%;
+  margin-top: 2rem;
+}
+main .hero-text img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.9;
+}
+main .hero-text .text {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+main .hero-text .text p {
+  font-family: font1;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */
