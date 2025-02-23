@@ -130,8 +130,9 @@ main .section-3 .text-div {
 main .section-3 .text-div p {
   writing-mode: vertical-rl;
   font-family: font1;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-top: 0.5rem;
+  text-transform: uppercase;
 }
 main .section-3 .text-div .text {
   display: flex;
@@ -152,6 +153,7 @@ main .section-3 .text-div .text p {
   font-family: font1;
   opacity: 0.5;
   line-height: 1.5;
+  text-transform: none;
 }
 
 @media (min-width: 900px) {
@@ -164,9 +166,35 @@ main .section-3 .text-div .text p {
     margin-top: 3rem;
   }
   main .section-2 .text-div h1 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
   main .section-2 .text-div p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+  }
+  main .section-2 .text-div .service-div {
+    margin-top: 3rem;
+    gap: 1.1rem;
+  }
+  main .section-2 .text-div .service-div .service p {
+    font-size: 2rem;
+  }
+  main .section-3 {
+    flex-direction: row;
+    gap: 4rem;
+    margin-top: 5rem;
+  }
+  main .section-3 .text-div {
+    flex-direction: row-reverse;
+  }
+  main .section-3 .text-div .text {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  main .section-3 .text-div .text h1 {
+    font-size: 6rem;
+  }
+  main .section-3 .text-div .text p {
+    font-size: 1.3rem;
+    width: 90%;
   }
 }/*# sourceMappingURL=style.css.map */

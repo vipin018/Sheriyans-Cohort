@@ -151,8 +151,9 @@ main {
             p {
                 writing-mode: vertical-rl;
                 font-family: font1;
-                font-size: 1.2rem;
+                font-size: 1rem;
                 padding-top: 0.5rem;
+                text-transform: uppercase;
             }
 
             .text {
@@ -175,6 +176,7 @@ main {
                     font-family: font1;
                     opacity: 0.5;
                     line-height: 1.5;
+                    text-transform:none;
 
                 }
             }
@@ -192,13 +194,50 @@ main {
             margin-top: 3rem;
 
             .text-div {
+                // background-color: red;
 
                 h1 {
-                    font-size: 4rem;
+                    font-size: 5rem;
                 }
 
                 p {
-                    font-size: 1.6rem;
+                    font-size: 1.5rem;
+                }
+
+                .service-div {
+                    margin-top: 3rem;
+                    gap: 1.1rem;
+                    .service {
+                        p {
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section-3{
+            flex-direction: row;
+            gap: 4rem;
+            margin-top: 5rem;
+
+            .text-div{
+                flex-direction: row-reverse;
+
+                .text{
+                   flex-direction: column;
+                   gap: 4rem;
+                //    background-color: red;
+
+                    h1{
+                        font-size: 6rem;
+                      
+                    }
+
+                    p{
+                        font-size: 1.3rem;
+                        width: 90%;
+                    }
                 }
             }
         }
