@@ -46,10 +46,31 @@ if (age >= 18) {
 } else {
     console.log("You are a child");
 }
-*/
+
 
 let a = 10; // number
 let b = "10"; // string
 
 console.log(a == b) // true -> because == compares the value only
 console.log(a === b) // false -> because === compares the value and type
+
+let c = 11;
+
+c > 10 ? console.log("greater") : console.log("lesser")
+*/
+
+let a =0;
+
+while (a < 10) {
+    console.log("while loop", a)
+    a++;
+}
+
+
+for (let i = 0; i < 10; i++) {
+    console.log("for loop", i)
+}
+
+for ( let i = 10; i > 0; i--) {
+    console.log("reverse for loop", i)
+}

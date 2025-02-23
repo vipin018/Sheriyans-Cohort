@@ -68,3 +68,15 @@ example -> console.log(a); let a = 10;
 - === -> compares the value and type
 
 
+### Loops
+
+- for loop -> for (let i = 0; i < 10; i++) {
+    // code to be executed
+}
+- while loop -> while (condition) {
+    // code to be executed
+}
+- do while loop -> do {
+    // code to be executed
+} while (condition);
+
