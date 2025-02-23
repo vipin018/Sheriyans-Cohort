@@ -27,3 +27,28 @@ console.log(b); // null
 example -> console.log(a); let a = 10;
 // the o/p will be undefined because the variable is not initialized it is just declared
 
+### Conditional Statements
+
+- if statement -> if (condition) {  
+    // code to be executed if the condition is true
+}
+- if else statement -> if (condition) {  
+    // code to be executed if the condition is true
+} else {
+    // code to be executed if the condition is false
+}
+- else if statement -> if (condition) {  
+    // code to be executed if the condition is true
+} else if (condition) {
+    // code to be executed if the condition is true
+} else {
+    // code to be executed if the condition is false
+}
+- switch statement -> switch (expression) {
+    case value1:
+        // code to be executed if the expression is value1
+        break;
+    case value2:
+        // code to be executed if the expression is value2
+        break;
+}
