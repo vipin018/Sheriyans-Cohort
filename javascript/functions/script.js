@@ -4,6 +4,12 @@ function greet(name) {
 }
 greet("John");
 greet("Jane");
-console.log("first"); 
+console.log("first");
 greet("Jim");
 
+// sum of three numbers
+
+function sum(a, b, c) {
+    console.log(a + b + c);
+}
+sum(4, 9, 2);
