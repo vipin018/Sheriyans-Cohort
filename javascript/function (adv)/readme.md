@@ -28,5 +28,5 @@ maths.sub(10,20);
 maths.mul(10,20);
 maths.div(10,20);
 ```
-
+- in iife we can create private variables and functions which cannot be accessed outside the iife
 

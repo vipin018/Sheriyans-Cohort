@@ -43,10 +43,21 @@ console.log(maths.sub(10,20));
 console.log(maths.mul(10,20));
 console.log(maths.div(10,20));
 
+// hof (HIGHER ORDER FUNCTION) -> in this function we can pass function as an argument and return a function
 
+function sayHello(){
+    return function(){
+       return function(){
+        return function(){
+            return function(){
+                console.log("blah blah");
+            }
+        }
+       }
+    }
+}
+sayHello()()()()(); // this is called currying -> when we pass a function as an argument and return a function
 
-
-
-
+    
 
 
