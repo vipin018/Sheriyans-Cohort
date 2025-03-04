@@ -60,6 +60,19 @@ let obj = {
 - to store complex data.
 - to store real world data.
 
+*How to create an object?*
+
+```
+let obj = {
+    name: "John",
+    age: 20,
+    city: "New York"
+}
+```
+
+```
+let obj = new Object();
+```
 
 
 

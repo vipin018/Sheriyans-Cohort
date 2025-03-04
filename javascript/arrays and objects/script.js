@@ -40,7 +40,13 @@ let obj = {
     age: 20,
     city: "New York",
     isMale: true,
-    
 }
 console.log(obj);
+
+// accessing the properties of the object
+console.log(obj.name);
+console.log(obj.age);
+console.log(obj.city);
+console.log(obj.isMale);
+
 
