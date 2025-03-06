@@ -71,9 +71,26 @@ let num = "50";
 console.log(Number(num), typeof Number(num));
 console.log(+"50", typeof +"50");
 console.log(num * 1, typeof (num * 1));
+console.log(parseInt(num), typeof parseInt(num));
 console.groupEnd();
 
 
 // 8. Check if "JavaScript" contains "Script" without using .includes()
+console.groupCollapsed("Problem 8");
+let str = "JavaScript";
+if (str.indexOf("Script") !== -1) {
+    console.log("String contains Script");
+} else {
+    console.log("String does not contain Script");
+}
+console.groupEnd();
 
-
+// 9.   Explain the difference between undefined, null, and NaN with examples.
+console.groupCollapsed("Problem 9");
+let x;
+console.log(x);
+let y = null;
+console.log(y);
+let z = NaN;
+console.log(z);
+console.groupEnd();
