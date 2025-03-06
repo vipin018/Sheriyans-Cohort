@@ -64,8 +64,8 @@ example -> console.log(a); let a = 10;
 - Ternary Operators -> condition ? true : false
 
 *que: difference between == and ===*
-- == -> compares the value only
-- === -> compares the value and type
+- `==` -> compares the value only
+- `===` -> compares the value and type
 
 
 ### Loops

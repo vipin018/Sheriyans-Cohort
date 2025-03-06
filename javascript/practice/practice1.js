@@ -58,11 +58,11 @@ const person = {
     city: "Navi Mumbai",
     isMale: true,
 }
-console.log(person);
+console.log("Before update : ", person);
 person.name = "6pin";
 person.city = "Mumbai";
 person.age = 22;
-console.log(person);
+console.log("After update : ", person);
 console.groupEnd();
 
 // 7.  Convert "50" (string) into a number using 3 different methods.
