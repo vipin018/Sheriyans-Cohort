@@ -18,19 +18,25 @@ console.log(typeof null);
 
 // 4. Write a program that swaps the values of two variables
 
-let a =1;
+let a = 1;
 let b = 3;
-console.log("a : ",a,"b : ",b);
+console.log("a : ", a, "b : ", b);
 // using temp variable
-let temp =a;
-a=b;
-b=temp;
-console.log("a : ",a,"b : ",b);
+let temp = a;
+a = b;
+b = temp;
+console.log("a : ", a, "b : ", b);
 // without using temp variable
-a=a+b;
-b=a-b;
-a=a-b;
-console.log("a : ",a,"b : ",b);
+
+a = a + b;
+b = a - b;
+a = a - b;
+console.log("a : ", a, "b : ", b);
+
+// using array destructuring
+
+[a, b] = [b, a];
+console.log("a : ", a, "b : ", b);
 
 // 5. Use console.group() to organize logs into a group
 
@@ -55,9 +61,9 @@ const person = {
     isMale: true,
 }
 console.log(person);
-person.name="6pin";
-person.city="Mumbai";
-person.age=22;
+person.name = "6pin";
+person.city = "Mumbai";
+person.age = 22;
 console.log(person);
 
 // 7.  Convert "50" (string) into a number using 3 different methods.
@@ -65,6 +71,6 @@ console.log(person);
 let num = "50";
 console.log(Number(num));
 console.log(+"50");
-console.log(num*1);
+console.log(num * 1);
 
 // 8. Check if "JavaScript" contains "Script" without using .includes()
