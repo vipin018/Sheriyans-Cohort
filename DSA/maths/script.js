@@ -1,4 +1,4 @@
-/*
+
 console.log("Math.ceil(4.6) :  " + Math.ceil(4.6)); // this will return 5 because it is the smallest integer greater than 4.6
 console.log("Math.floor(4.6) : " + Math.floor(4.6)); // this will return 4 because it is the largest integer less than 4.6
 console.log("Math.round(4.5) : " + Math.round(4.5)); // this will return 5 because it is the nearest integer to 4.5
@@ -12,34 +12,34 @@ console.log("Math.pow(2,3) : " + Math.pow(2, 3)); // this will return 8 because 
 console.log("Math.PI : " + Math.PI); // this will return 3.141592653589793 because it is the value of pi
 console.log("Math.trunc(4.625158) : " + Math.trunc(4.625158)); // this will return 4 because it is the integer part of 4.6
 
-let a = 342.42113;
-console.log(a.toFixed(1)); // this will return 342.4 because it is the number rounded to 1 decimal place
-*/
+let amt = 342.42113;
+console.log(amt.toFixed(1)); // this will return 342.4 because it is the number rounded to 1 decimal place
+
 /*
  => CALCULATE THE COMPOUND INTEREST
   we know the formula of compound interest is 
    A = P(1 + r/100)^t
    where A is the amount, P is the principal, r is the rate of interest and t is the time period
  CP = A - P 
-
+*/
 let p = prompt("Enter the principal amount");
 let r = prompt("Enter the rate of interest");
 let t = prompt("Enter the time period");
 
-let amount = p * (1 + r/100) ** t;
+let amount = p * (1 + r / 100) ** t;
 let cp = amount - p;
 
 console.log(cp);
 
-*/
+
 
 /* 
 => GENERATE OTP
-
+ */
 let otp = (Math.round(Math.random() * 1000000));
 console.log(otp);
 
-    */
+
 
 /*
 => AREA OF TRIANGLE USING HERON'S FORMULA
@@ -47,7 +47,7 @@ console.log(otp);
 we know the formula of area of triangle is 
 A = sqrt(s(s-a)(s-b)(s-c))
 where s is the semi-perimeter of the triangle and a,b,c are the sides of the triangle
-
+*/
 
 let x = Number(prompt("Enter the first side of the triangle"));
 let y = Number(prompt("Enter the second side of the triangle"));
@@ -62,7 +62,7 @@ else {
 
     console.log(area);
 }
-*/
+
 /*
 => FIND CIRCUMFERENCE AND AREA OF CIRCLE
  
@@ -72,46 +72,71 @@ where r is the radius of the circle
 
 we know the formula of area of circle is 
 A = pi * r^2
+*/
 
+let radius = Number(prompt("Enter the radius of the circle"));
 
-let r = Number(prompt("Enter the radius of the circle"));
-
-let circumference = 2 * Math.PI * r;
-let area = Math.PI * r * r;
+let circumference = 2 * Math.PI * radius;
+let area = Math.PI * radius * radius;
 
 console.log(circumference.toFixed(2));
 console.log(area.toFixed(2));
 
-*/
+
 
 /*
 => FIND THE LARGEST NUMBER BETWEEN TWO NUMBERS
+*/
+let num1 = Number(prompt("Enter the first number"));
+let num2 = Number(prompt("Enter the second number"));
 
-let a = Number(prompt("Enter the first number"));
-let b = Number(prompt("Enter the second number"));
-
-if (a > b) {
-    console.log("a is greater than b");
+if (num1 > num2) {
+    console.log("num1 is greater than num2");
 }
 else {
-    console.log("b is greater than a");
+    console.log("num2 is greater than num1");
 }
 
-*/
+
 
 /*
 => FIND WHETHER THE NUMBER IS EVEN OR ODD
+*/
+let number = Number(prompt("Enter the number"));
 
-let num = Number(prompt("Enter the number"));
-
-if(num%2==0){
+if (number % 2 == 0) {
     console.log("Even");
 }
-else{
+else {
     console.log("Odd");
 }
 
+
+
+/*
+=> FIND WHETHER THE PERSON IS ELIGIBLE TO VOTE OR NOT
 */
+    let name = prompt("Enter your name");
+let age = Number(prompt("Enter your age"));
+
+if (age >= 18) {
+    console.log("You are eligible to vote");
+}
+else {
+    console.log("You are not eligible to vote");
+}
+
+
+
+/*
+=> FIND THE LARGEST NUMBER BETWEEN THREE NUMBERS
+*/
+let n1 = Number(prompt("Enter the first number"));
+let n2 = Number(prompt("Enter the second number"));
+let n3 = Number(prompt("Enter the third number"));
+
+console.log(Math.max(n1, n2, n3));
+
 
 
 
