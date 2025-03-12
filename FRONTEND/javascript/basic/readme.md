@@ -45,3 +45,15 @@ console.log(a); // this will print 10
 - prompt() -> used to display the message to the user and get the input from the user
 - confirm() -> used to display the message to the user and get the input from the user
 
+ difference between "===" and "=="
+
+- "===" is used to check the value and type of the variable
+- "==" is used to check the value of the variable
+example:
+```javascript
+let a = 10;
+let b = "10";
+console.log(a === b); // this will return false because a is a number and b is a string
+console.log(a == b); // this will return true because a is a number and b is a string
+```
+

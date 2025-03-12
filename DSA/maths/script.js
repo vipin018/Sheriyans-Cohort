@@ -116,7 +116,7 @@ else {
 /*
 => FIND WHETHER THE PERSON IS ELIGIBLE TO VOTE OR NOT
 */
-    let name = prompt("Enter your name");
+let name = prompt("Enter your name");
 let age = Number(prompt("Enter your age"));
 
 if (age >= 18) {
@@ -142,6 +142,28 @@ console.log(Math.max(n1, n2, n3));
 
 
 
+let numb = 0;
+if (numb) {
+    console.log("even");
+}
+else {
+    console.log("odd");
+}
 
+//  write a program that takes the number of electricity units and returns the total bill
+// for example for 50unit bill is 4.2*50 = 210.0
+//  return output in form of .0 
 
-
+    
+if (unit <= 100) {
+    console.log(unit * 4.2);
+}
+else if (unit >= 101 && unit <= 200) {
+    console.log(unit * 6);
+}
+else if (unit >= 201 && unit <= 400) {
+    console.log(unit * 8);
+}
+else {
+    console.log(unit * 13);
+}
