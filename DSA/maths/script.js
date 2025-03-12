@@ -62,10 +62,56 @@ else {
 
     console.log(area);
 }
+*/
+/*
+=> FIND CIRCUMFERENCE AND AREA OF CIRCLE
+ 
+we know the formula of circumference of circle is 
+C = 2 * pi * r
+where r is the radius of the circle
+
+we know the formula of area of circle is 
+A = pi * r^2
+
+
+let r = Number(prompt("Enter the radius of the circle"));
+
+let circumference = 2 * Math.PI * r;
+let area = Math.PI * r * r;
+
+console.log(circumference.toFixed(2));
+console.log(area.toFixed(2));
 
 */
 
+/*
+=> FIND THE LARGEST NUMBER BETWEEN TWO NUMBERS
 
+let a = Number(prompt("Enter the first number"));
+let b = Number(prompt("Enter the second number"));
+
+if (a > b) {
+    console.log("a is greater than b");
+}
+else {
+    console.log("b is greater than a");
+}
+
+*/
+
+/*
+=> FIND WHETHER THE NUMBER IS EVEN OR ODD
+
+let num = Number(prompt("Enter the number"));
+
+if(num%2==0){
+    console.log("Even");
+}
+else{
+    console.log("Odd");
+}
+
+*/
 
 
 
