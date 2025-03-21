@@ -35,3 +35,29 @@ for (let i = arr3.length - 1; i >= 0; i--) {
 console.log(revAns)
 console.groupEnd();
 
+// que 4: Find the most frequent element in an array.
+
+console.groupCollapsed("find the most frequent elem in an array")
+
+let arr4 = [1, 2, 3, 4, 0, 1, 2, 2, 1, 10, 1, 2, 3,10]
+let freq = {};
+
+arr4.forEach(function(i){
+    if(freq[i]){
+        freq[i]++;
+    }else{
+        freq[i] = 1;
+    }
+})
+console.log(freq)
+
+let maxFreq = 0;
+let mostFreqElem;
+for(let i in freq){
+    if(freq[i] > maxFreq){
+        maxFreq = freq[i];
+        mostFreqElem = i;
+    }
+}
+console.log(mostFreqElem)
+console.groupEnd();
