@@ -47,8 +47,28 @@ console.groupEnd()
 console.groupCollapsed("Iterate over the string JavaScript");
 
 let str = "JavaScript";
-for(let i of str){
+for (let i of str) {
     console.log(i)
 }
 
 console.groupEnd()
+
+// que 6 : Remove duplicate values from an array
+
+console.groupCollapsed("Remove duplicate values from an array");
+
+let a = [1, 2, 3, 2, 4, 3, 2, 1, 3, 6, 4, 1, 2, 9, 0, 0, 5];
+let unique = [...new Set(a)];
+console.log(unique);
+
+console.groupEnd();
+
+
+let string = "JS"
+for (let i of string){
+    console.log(i+i)
+}
+
+
+
+
