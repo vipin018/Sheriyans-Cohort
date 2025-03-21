@@ -66,3 +66,7 @@ means jo function ko argument jaise pass kre hai usko callback function kehte ha
 ### FILTER -> filter is a higher order function that returns a new array by applying a function to each element of the original array and returning only the elements that satisfy the condition.
 
 ### REDUCE -> reduce is a higher order function that returns a single value by applying a function to each element of the original array.
+
+- map -> map ek blank array return karta hai jisme function ke andar jo bhi return kre hai vo store ho jata hai.
+- filter -> filter ek blank array return krta hai but usme jo bhi elements hai jo condition satisfy kre hai vo store ho jata hai.
+- reduce -> reduce ek single value return krta hai from an array like sum, product, etc.
