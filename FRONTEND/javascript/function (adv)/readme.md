@@ -59,3 +59,10 @@ means jo function ko argument jaise pass kre hai usko callback function kehte ha
 
 ### LOCAL SCOPE -> a variable declared inside a function is called a local variable and is accessible only inside the function.
 
+## MAP, FILTER, REDUCE
+
+### MAP -> map is a higher order function that returns a new array by applying a function to each element of the original array.
+
+### FILTER -> filter is a higher order function that returns a new array by applying a function to each element of the original array and returning only the elements that satisfy the condition.
+
+### REDUCE -> reduce is a higher order function that returns a single value by applying a function to each element of the original array.

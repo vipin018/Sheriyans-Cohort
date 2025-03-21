@@ -119,5 +119,28 @@ function a(){
 }
 a()();
 
+// map
 
+let arr = [1,2,3,4,5];
 
+let newArr = arr.map((item)=>{
+    return item*2;
+})
+
+console.log(newArr);
+
+// filter
+
+let filteredArr = arr.filter((item)=>{
+    return item%2===0;
+})
+
+console.log(filteredArr);
+
+// reduce
+
+let reducedArr = arr.reduce((acc,curr)=>{
+    return acc+curr;
+},0)
+
+console.log(reducedArr);
