@@ -39,13 +39,13 @@ console.groupEnd();
 
 console.groupCollapsed("find the most frequent elem in an array")
 
-let arr4 = [1, 2, 3, 4, 0, 1, 2, 2, 1, 10, 1, 2, 3,10]
+let arr4 = [1, 2, 3, 4, 0, 1, 2, 2, 1, 10, 1, 2, 3, 10]
 let freq = {};
 
-arr4.forEach(function(i){
-    if(freq[i]){
+arr4.forEach(function (i) {
+    if (freq[i]) {
         freq[i]++;
-    }else{
+    } else {
         freq[i] = 1;
     }
 })
@@ -53,8 +53,8 @@ console.log(freq)
 
 let maxFreq = 0;
 let mostFreqElem;
-for(let i in freq){
-    if(freq[i] > maxFreq){
+for (let i in freq) {
+    if (freq[i] > maxFreq) {
         maxFreq = freq[i];
         mostFreqElem = i;
     }
