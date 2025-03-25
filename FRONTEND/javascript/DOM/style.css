@@ -13,6 +13,9 @@ body {
 body {
     background-color: #d6d6d6;
     font-family: Nunito;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #box {
@@ -21,12 +24,64 @@ body {
     background-color: hotpink;
 }
 
-#btn {
-    width: 100px;
-    height: 30px;
+
+#card {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+p{
+    font-size: 16px;
+    font-weight: 900;
+    color: #ff0000;
+}
+
+#card-button {
+    display: flex;
+    gap: 10px;
+}
+
+#add-button {
+    background-color: rgb(50, 214, 21);
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
-    background-color: lime;
+    padding: 10px;
 }
+
+#remove-button {
+    background-color: rgb(214, 50, 50);
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+
+
+
+

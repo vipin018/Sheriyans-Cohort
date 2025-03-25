@@ -30,10 +30,33 @@ h.addEventListener("click", function(){
 
 // box.textContent = "<h1>Click Me</h1>";
 
-let btn = document.getElementById("btn");
-let box = document.getElementById("box");
+// let btn = document.getElementById("btn");
+// let box = document.getElementById("box");
 
-btn.addEventListener("click", function(){
-    box.style.backgroundColor = "black";
+// btn.addEventListener("click", function(){
+//     box.style.backgroundColor = "black";
+// })
+
+let addBtn = document.getElementById("add-button");
+let pTag = document.querySelector("#card-content p");
+
+let flag = 0;
+
+addBtn.addEventListener("click", function(){
+    if(flag == 0){
+        pTag.innerHTML = "Friend Added";
+        pTag.style.color = "limegreen";
+        addBtn.innerHTML = "Remove Friend";
+        addBtn.style.backgroundColor = "red";
+        flag = 1;
+    }else{
+        pTag.innerHTML = "Friend Removed";
+        pTag.style.color = "red";
+        flag = 0;
+        addBtn.innerHTML = "Add Friend";
+        addBtn.style.backgroundColor = "limegreen";
+    }
 })
+
+
 
