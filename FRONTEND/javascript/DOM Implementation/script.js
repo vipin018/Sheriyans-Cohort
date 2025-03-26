@@ -17,7 +17,7 @@ console.log(`value of a is ${a}`)
 */
 
 // RANDOM COLOR GENERATOR using DOM 
-
+/*
 const box = document.getElementById('box');
 const btn = document.getElementById('btn');
 
@@ -29,3 +29,81 @@ btn.addEventListener('click', () => {
 
 });
 
+*/
+
+// IPL 2025 WINNER PREDICTION
+/*
+let winner = document.getElementById('winner');
+let team = document.getElementById('team');
+let btn = document.getElementById('btn');
+
+btn.addEventListener('click', () => {
+    let arr = ["CSK", "MI", "RCB", "RR", "SRH", "KKR", "DC", "PBKS", "GT", "LSG"];
+    let winner = arr[Math.floor(Math.random()*arr.length)];
+    team.textContent = winner;
+});
+*/
+
+const iplTeams = [
+    {
+        name: "CSK",
+        primaryColor: "#FFD700",
+        secondaryColor: "#000080"
+    },
+    {
+        name: "MI",
+        primaryColor: "#004BA0",
+        secondaryColor: "#FFFFFF"
+    },
+    {
+        name: "RCB",
+        primaryColor: "#DA291C",
+        secondaryColor: "#3058CC"
+    },
+    {
+        name: "KKR",
+        primaryColor: "#3A225D",
+        secondaryColor: "#D4AF37"
+    },
+    {
+        name: "SRH",
+        primaryColor: "#FB643E",
+        secondaryColor: "#000000"
+    },
+    {
+        name: "DC",
+        primaryColor: "#17449B",
+        secondaryColor: "#E71A2F"
+    },
+    {
+        name: "RR",
+        primaryColor: "#EA1A7F",
+        secondaryColor: "#004BA0"
+    },
+    {
+        name: "PBKS",
+        primaryColor: "#D71920",
+        secondaryColor: "#FFFFFF"
+    },
+    {
+        name: "GT",
+        primaryColor: "#0A2D4D",
+        secondaryColor: "#E1B91A"
+    },
+    {
+        name: "LSG",
+        primaryColor: "#0078D7",
+        secondaryColor: "#F2A900"
+    }
+];
+
+let winner = document.getElementById('winner');
+let team = document.getElementById('team');
+let btn = document.getElementById('btn');
+
+btn.addEventListener('click', () => {
+    let winner = iplTeams[Math.floor(Math.random()*iplTeams.length)];
+    team.textContent = winner.name;
+    team.style.backgroundColor = winner.primaryColor;
+    team.style.color = winner.secondaryColor;
+});

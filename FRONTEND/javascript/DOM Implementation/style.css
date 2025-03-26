@@ -13,7 +13,7 @@
 
     body {
         background-color: #222;
-        font-family: Nunito;
+        font-family: Manrope;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -42,3 +42,17 @@
         color: #fff;
         transform: scale(0.9);
     }
+    #winner{
+        font-size: 50px;
+        font-weight: 600;
+        color: #fff;
+    }
+    #team{
+        font-size: 100px;
+        font-weight: 600;
+        color: #000000;
+        background-color: #ffffff98;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
