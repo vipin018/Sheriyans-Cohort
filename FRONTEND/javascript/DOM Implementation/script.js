@@ -106,4 +106,5 @@ btn.addEventListener('click', () => {
     team.textContent = winner.name;
     team.style.backgroundColor = winner.primaryColor;
     team.style.color = winner.secondaryColor;
+    team.style.border = `2px solid ${winner.secondaryColor}`;
 });
