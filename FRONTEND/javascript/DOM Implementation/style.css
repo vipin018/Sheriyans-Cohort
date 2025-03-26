@@ -1,0 +1,44 @@
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        background-color: #222;
+        font-family: Nunito;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #box {
+        width: 300px;
+        height: 300px;
+        background-color: #fff;
+       border-radius: 50%;
+    }
+    
+    #btn{
+        width: 150px;
+        height: 40px;
+        background-color: #fff;
+        border: none;
+        border-radius: 5px;
+        
+    }
+
+    #btn:active{
+        background-color: #000;
+        color: #fff;
+        transform: scale(0.9);
+    }
