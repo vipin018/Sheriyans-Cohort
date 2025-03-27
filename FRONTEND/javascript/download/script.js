@@ -1,14 +1,11 @@
 let progress = document.getElementById("progress");
-let downloadBtn = document.getElementById("downloadBtn");
-let resetBtn = document.getElementById("resetBtn");
+let btn = document.querySelector("button");
 let percentage = document.getElementById("percentage");
 let growth = 0;
-let int;
 
-downloadBtn.addEventListener("click", () => {
-  downloadBtn.disabled = true;
-  resetBtn.disabled = true; // Disable reset during download
-  int = setInterval(() => {
+btn.addEventListener("click", () => {
+  btn.disabled = true; // Disable button during download simulation
+  let int = setInterval(() => {
     if (growth < 100) {
       growth++;
       percentage.innerHTML = growth + "%";
@@ -16,17 +13,9 @@ downloadBtn.addEventListener("click", () => {
     } else {
       clearInterval(int);
       percentage.innerHTML = "Download Complete!";
-      progress.style.backgroundColor = "#00b509";
-      resetBtn.disabled = false; // Enable reset after download
+      progress.style.backgroundColor = "#00b509"; // Optional: Keep the green color
+      btn.style.opacity = "0.5";
+      btn.style.cursor = "not-allowed";
     }
-  }, 40);
-});
-
-resetBtn.addEventListener("click", () => {
-  clearInterval(int); // Stop any ongoing download
-  growth = 0;
-  percentage.innerHTML = "0%";
-  progress.style.width = "0%";
-  progress.style.backgroundColor = "#00b509";
-  downloadBtn.disabled = false; // Enable download again
+  }, Math.random() * 100);
 });

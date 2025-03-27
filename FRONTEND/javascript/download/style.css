@@ -25,6 +25,7 @@ body {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
+    opacity: 0.8;
 }
 
 #download {
