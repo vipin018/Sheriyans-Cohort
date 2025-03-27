@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #222;
+    color: #000000;
+    font-family: Nunito;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#download {
+    width: 100%;
+    height: 20px;
+    background-color: #afafaf;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#progress {
+    width: 0%;
+    height: 100%;
+    background-color: #00b509;
+    border-radius: 10px;
+}
+
+#song {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#percentage {
+    font-size: 20px;
+    font-weight: 600;
+    top: 49%;
+    right: 25%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(230, 0, 0);
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+button:active {
+    transform: scale(0.9);
+    transition: all 0.3s ease;
+}
+
+#resetBtn {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(230, 0, 0);
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
