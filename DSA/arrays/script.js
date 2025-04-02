@@ -60,5 +60,14 @@ for(let i=0;i<arr.length;i++){
 console.log(`max is ${max} and min is ${min}`);
 
 
+// finding second largest element in the array 
 
+let secondLargest = arr[0];
 
+for(let i=0;i<arr.length;i++){
+    if(arr[i]>secondLargest && arr[i]<max){
+        secondLargest = arr[i];
+    }
+}
+
+console.log(`second largest element is ${secondLargest}`);
