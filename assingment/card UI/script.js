@@ -42,7 +42,9 @@ let clutter = ""
 arr.forEach(element => {
     clutter += `
     <div class="card">
+    <div>
         <p class="rate">${element.rate}</p>
+    </div>
         <h2 class="title">${element.title}</h2>
         <div class="card-body">
             <p class="company">${element.company}</p>
