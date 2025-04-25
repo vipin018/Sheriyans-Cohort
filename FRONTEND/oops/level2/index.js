@@ -1,3 +1,7 @@
+/**
+ * Creating a class pen using OOPS
+ 
+
 class pen {
     constructor(color, price, brand, isAvailable, description) {
         this.color = color;
@@ -15,3 +19,17 @@ const pen3 = new pen("green", 30, "parker", true, "this is a green pen");
 console.log(pen1);
 console.log(pen2);
 console.log(pen3);
+
+*/
+
+
+function toffee (name){
+    this.name = name;
+}
+
+toffee.prototype.price = 2;
+
+let t1 = new toffee("alpenliebe");
+let t2 = new toffee("pulse");
+
+
