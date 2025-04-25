@@ -23,13 +23,25 @@ console.log(pen3);
 */
 
 
-function toffee (name){
+// function toffee (name){
+//     this.name = name;
+// }
+
+// toffee.prototype.price = 2;
+
+// let t1 = new toffee("alpenliebe");
+// let t2 = new toffee("pulse");
+
+function human (name, age, gender){
     this.name = name;
+    this.age = age;
+    this.gender = gender;
 }
 
-toffee.prototype.price = 2;
+human.prototype.sayHello = function(){
+    console.log(`Hello, my name is ${this.name}`);
+}
 
-let t1 = new toffee("alpenliebe");
-let t2 = new toffee("pulse");
+let h1 = new human("john", 20, "male");
 
 
