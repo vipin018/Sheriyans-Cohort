@@ -38,10 +38,11 @@ function human (name, age, gender){
     this.gender = gender;
 }
 
-human.prototype.sayHello = function(){
-    console.log(`Hello, my name is ${this.name}`);
-}
-
 let h1 = new human("john", 20, "male");
+console.log(h1);
+
+
+
+
 
 
