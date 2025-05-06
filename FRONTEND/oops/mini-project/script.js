@@ -31,4 +31,4 @@ let book1 = new book("Books of Shaders", "Wawa Sensei", 199);
 let book2 = new book("Threejs Journey", "Bruno Simon", 299);
 let book3 = new book("The Pragmatic Programmer", "Andrew Hunt", 399);
 
-ternaLibrary.addBooks([book1, book2, book3]);
+ternaLibrary.addBooks([book1, book2, book3, book]);
