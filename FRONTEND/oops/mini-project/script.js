@@ -2,8 +2,8 @@ class library{
     constructor(){
         this.books = []; 
     }
-    addBook(book){
-        this.books.push(book);
+    addBooks    (books){
+        this.books.push(...books);
     }
     listBooks(){
         this.books.forEach(book => {
@@ -11,10 +11,6 @@ class library{
         });
     }
 }
-let ternaLibrary = new library();
-ternaLibrary.addBook("Books of Shaders");
-ternaLibrary.addBook("Threejs Journey");
-
 
 class book{
     constructor(title,author,price){
@@ -30,7 +26,9 @@ class book{
         this.readStatus = true;
     }
 }
+let ternaLibrary = new library();
 let book1 = new book("Books of Shaders", "Wawa Sensei", 199);
 let book2 = new book("Threejs Journey", "Bruno Simon", 299);
+let book3 = new book("The Pragmatic Programmer", "Andrew Hunt", 399);
 
-
+ternaLibrary.addBooks([book1, book2, book3]);
